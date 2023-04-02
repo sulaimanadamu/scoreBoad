@@ -27,3 +27,7 @@ function gadd3(){
    document.getElementById("guest").textContent = guestScore
 }
 
+function resetAll(){
+   document.getElementById("guest").textContent = 0
+   document.getElementById("home").textContent = 0
+}
