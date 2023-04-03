@@ -28,6 +28,8 @@ function gadd3(){
 }
 
 function resetAll(){
-   document.getElementById("guest").textContent = 0
-   document.getElementById("home").textContent = 0
+   homeScore = 0
+   guestScore = 0  
+   document.getElementById("guest").textContent = guestScore
+   document.getElementById("home").textContent = homeScore
 }
